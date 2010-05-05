@@ -1,0 +1,14 @@
+CC=i586-mingw32msvc-cc
+CFLAGS=-x c
+LDFLAGS=
+
+STRIP=i586-mingw32msvc-strip
+
+all: dl.exe
+
+dl.exe: drivelist.c
+	$(CC) -o dl.exe $(CFLAGS) drivelist.c $(LDFLAGS)
+	$(STRIP) dl.exe
+
+clean:
+	rm *.exe *.o

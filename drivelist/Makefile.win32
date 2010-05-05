@@ -1,0 +1,11 @@
+CC=cl
+CFLAGS= /nologo /MT /O2 /TC
+LDFLAGS=/link kernel32.lib /SUBSYSTEM:CONSOLE
+
+all: dl.exe
+
+dl.exe: drivelist.c
+	$(CC) /OUT:dl.exe $(CFLAGS) drivelist.c $(LDFLAGS)
+
+clean:
+	del *.exe; del *.obj
