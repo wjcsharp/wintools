@@ -1,0 +1,21 @@
+
+             
+RECON -> TARGETING -> ATTACK -> ANALYSE -> REPORT
+  ^                                |
+  └────────────────────────────────┘
+
+
+                                Vulnerabilities
+                                       ^
+                                      / \
+                                     /   \
+                                    /     \
+                                   /       \
+                                  /         \
+                                 /           \
+                                /             \
+                               /               \
+                 Exploitation  ----------------- Host Integrityo
+
+
+                                   
