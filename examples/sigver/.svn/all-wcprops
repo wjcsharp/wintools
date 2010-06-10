@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/wintools/!svn/ver/139/trunk/sigver
+END
+sigver.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/wintools/!svn/ver/139/trunk/sigver/sigver.c
+END
+sigver.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/wintools/!svn/ver/139/trunk/sigver/sigver.vcproj
+END
+sigver.sln
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/wintools/!svn/ver/139/trunk/sigver/sigver.sln
+END

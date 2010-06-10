@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/wintools/!svn/ver/17/trunk/samplesys
+END
+sample.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/wintools/!svn/ver/17/trunk/samplesys/sample.c
+END
+simple.sys
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/wintools/!svn/ver/17/trunk/samplesys/simple.sys
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/wintools/!svn/ver/17/trunk/samplesys/Makefile
+END

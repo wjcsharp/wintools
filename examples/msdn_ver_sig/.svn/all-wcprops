@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/wintools/!svn/ver/141/trunk/msdn_ver_sig
+END
+versig.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/wintools/!svn/ver/141/trunk/msdn_ver_sig/versig.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/wintools/!svn/ver/141/trunk/msdn_ver_sig/Makefile
+END

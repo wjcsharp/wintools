@@ -1,0 +1,28 @@
+Detection Methodology
+-----------------------
+ProcL uses many different approaches at 2 different level (ring-3 & ring-0) in the operating system
+1. User-mode approaches:
+    	- ToolHelpAPI
+    	- EnumProcess API
+    	- Performance data helper
+    	- ZwQuerySystemInformation - Class "SystemProcessesAndThreadsInformation"
+    	- Open handle scanning
+    	- Process Bruteforcing
+    	- Scanning handles open in another process
+2. Kernel-mode approaches:
+    	- EPROCESS structure scanning
+    	- PspCidTable scanning
+    	- HandleTableList scanning
+    	- Scheduler threads list scanning
+    	- SwapContext hooking
+What ProcL is NOT?
+---------------------
+1. May not work on Windows Vista (not tested)
+2. ProcL can not detect hidden - modules, threads, drivers, files, folders, and registry keys
+3. ProcL does not restore any hooks
+4. ProcL is not going to keep you Rootkit free!
+Future work
+------------
+1. Vista support
+2. Process killing
+3. XML output

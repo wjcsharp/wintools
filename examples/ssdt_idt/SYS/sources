@@ -1,0 +1,6 @@
+TARGETNAME=lookup
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+
+SOURCES=lookup.c lookup.rc

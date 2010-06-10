@@ -1,0 +1,11 @@
+CC=i386-mingw32-gcc
+CFLAGS=-I/usr/i386-mingw32/include
+LDFLAGS=-L/usr/i386-mingw32/lib -lversion -o exeinfo.exe 
+
+all: exeinfo.exe 
+
+exeinfo.exe: exeinfo.c
+	$(CC) -o exeinfo.c $(CFLAGS) exeinfo.c $(LDFLAGS)
+
+clean:
+	rm *.exe; rm *.obj

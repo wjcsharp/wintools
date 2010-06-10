@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE
+END
+Driver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/Driver.cs
+END
+AboutForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/AboutForm.Designer.cs
+END
+AboutForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/AboutForm.cs
+END
+Lookup.sln
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/Lookup.sln
+END
+Utility.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/Utility.cs
+END
+Lookup.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/Lookup.csproj
+END
+MainForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/MainForm.resx
+END
+MainForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/MainForm.Designer.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/Program.cs
+END
+MainForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/MainForm.cs
+END
+SvcInstaller.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/SvcInstaller.cs
+END
+AboutForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/AboutForm.resx
+END
+Lookup.suo
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/wintools/!svn/ver/17/trunk/ssdt_idt/EXE/Lookup.suo
+END

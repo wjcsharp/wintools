@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/wintools/!svn/ver/17/trunk/systeminfo
+END
+systeminfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/wintools/!svn/ver/17/trunk/systeminfo/systeminfo.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/wintools/!svn/ver/17/trunk/systeminfo/Makefile
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/wintools/!svn/ver/17/trunk/systemcmd
+END
+systemcmdsvc.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/wintools/!svn/ver/17/trunk/systemcmd/systemcmdsvc.c
+END
+systemcmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/wintools/!svn/ver/17/trunk/systemcmd/systemcmd.c
+END
+systemcmdsvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/wintools/!svn/ver/17/trunk/systemcmd/systemcmdsvc.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/wintools/!svn/ver/17/trunk/systemcmd/Makefile
+END
+systemcmd.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/wintools/!svn/ver/17/trunk/systemcmd/systemcmd.h
+END

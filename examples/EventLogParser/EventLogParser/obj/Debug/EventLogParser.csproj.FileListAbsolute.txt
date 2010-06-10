@@ -1,0 +1,8 @@
+C:\projects\wintools\trunk\EventLogParser_src\EventLogParser\EventLogParser\bin\Debug\EventLogParser.exe
+C:\projects\wintools\trunk\EventLogParser_src\EventLogParser\EventLogParser\bin\Debug\EventLogParser.pdb
+C:\projects\wintools\trunk\EventLogParser_src\EventLogParser\EventLogParser\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\wintools\trunk\EventLogParser_src\EventLogParser\EventLogParser\obj\Debug\EventLogParser.MainForm.resources
+C:\projects\wintools\trunk\EventLogParser_src\EventLogParser\EventLogParser\obj\Debug\EventLogParser.Properties.Resources.resources
+C:\projects\wintools\trunk\EventLogParser_src\EventLogParser\EventLogParser\obj\Debug\EventLogParser.csproj.GenerateResource.Cache
+C:\projects\wintools\trunk\EventLogParser_src\EventLogParser\EventLogParser\obj\Debug\EventLogParser.exe
+C:\projects\wintools\trunk\EventLogParser_src\EventLogParser\EventLogParser\obj\Debug\EventLogParser.pdb
