@@ -15,7 +15,7 @@ RECON -> TARGETING -> ATTACK -> ANALYSE -> REPORT
                                  /           \
                                 /             \
                                /               \
-                 Exploitation  ----------------- Host Integrityo
+                 Exploitation  ----------------- Host Integrity
 
 
                                    
