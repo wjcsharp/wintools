@@ -1,0 +1,53 @@
+/**
+ * Set the passed Privileges to the current processes token.
+ *
+ */
+BOOL SetTokenPrivileges(TCHAR *priv, BOOL enable);
+
+/**
+ * Set the passed Privileges to the current processes token.
+ *
+ * @author Jacob Hammack
+ */
+BOOL SetTokenPrivileges(TCHAR *PrivToRequest, BOOL enable)
+{
+	HANDLE TokenHandle;
+	LUID UniqueID;
+	TOKEN_PRIVILEGES TokenPrivileges;
+
+	if (OpenProcessToken(GetCurrentProcess(),TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &TokenHandle))
+	{
+		if (!LookupPrivilegeValue(NULL, PrivToRequest, &UniqueID))
+		{
+			CloseHandle(TokenHandle);
+		}
+
+		TokenPrivileges.PrivilegeCount = 1;
+		TokenPrivileges.Privileges[0].Luid = UniqueID;
+		
+		if(enable == TRUE)
+		{
+            TokenPrivileges.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;
+        }
+        else
+        {
+            TokenPrivileges.Privileges[0].Attributes = SE_PRIVILEGE_REMOVED;
+        }
+			
+		if (!AdjustTokenPrivileges(TokenHandle, FALSE, &TokenPrivileges, sizeof(TokenPrivileges), NULL, NULL))
+		{
+			CloseHandle(TokenHandle);
+			
+			return FALSE;
+		}
+
+		CloseHandle(TokenHandle);
+		
+		return TRUE;
+			
+	}
+	else
+	{
+		return FALSE;
+	}
+}
