@@ -1,8 +1,10 @@
 /**
- * Keypull v1.0
+ * Keypull v1.1
  * @file
  *
  * 09-30-2008:	JPH - Created.
+ * 10-12-2010:  JPH - Removed a bunch of code that wasn't needed, not sure why
+ *  it was there.
  *
  * @author Jacob Hammack
  */
@@ -13,7 +15,6 @@
  */ 
 #include <windows.h>
 #include <tchar.h>
-#include <strsafe.h>
 
 /**
  * Forces the compiler to link these libraries
@@ -22,11 +23,6 @@
 #pragma comment(lib, "kernel32.lib")
 #pragma comment(lib, "Advapi32.lib")
 
-/**
- * Set the passed Privileges to the current processes token.
- *
- */
-BOOL SetTokenPrivileges(TCHAR *priv, BOOL enable);
 int cstrtot_s(char* string, unsigned int length, TCHAR* output);
 int tstrtoc_s(TCHAR* string, unsigned int length, char* output);
 void GetCDKey(TCHAR *RegKey);
@@ -119,54 +115,6 @@ void GetCDKey(TCHAR *RegKey)
 }
 
 /**
- * Set the passed Privileges to the current processes token.
- *
- * @author Jacob Hammack
- */
-BOOL SetTokenPrivileges(TCHAR *PrivToRequest, BOOL enable)
-{
-	HANDLE TokenHandle;
-	LUID UniqueID;
-	TOKEN_PRIVILEGES TokenPrivileges;
-
-	if (OpenProcessToken(GetCurrentProcess(),TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &TokenHandle))
-	{
-		if (!LookupPrivilegeValue(NULL, PrivToRequest, &UniqueID))
-		{
-			CloseHandle(TokenHandle);
-		}
-
-		TokenPrivileges.PrivilegeCount = 1;
-		TokenPrivileges.Privileges[0].Luid = UniqueID;
-		
-		if(enable == TRUE)
-		{
-            TokenPrivileges.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;
-        }
-        else
-        {
-            TokenPrivileges.Privileges[0].Attributes = SE_PRIVILEGE_REMOVED;
-        }
-			
-		if (!AdjustTokenPrivileges(TokenHandle, FALSE, &TokenPrivileges, sizeof(TokenPrivileges), NULL, NULL))
-		{
-			CloseHandle(TokenHandle);
-			
-			return FALSE;
-		}
-
-		CloseHandle(TokenHandle);
-		
-		return TRUE;
-			
-	}
-	else
-	{
-		return FALSE;
-	}
-}
-
-/**
  * Decode's a ProductID into a CDKey
  *
  * @author Jacob Hammack
@@ -233,7 +181,7 @@ void DecodeKey(BYTE *IncomingKey, TCHAR *ResultKey)
 * @param length length of C string
 * @param output Resulting TCHAR string
 *
-* @author Jacob Hammack NGC/TASC
+* @author Jacob Hammack
 */
 int cstrtot_s(char* string, unsigned int length, TCHAR* output)
 {
@@ -270,7 +218,7 @@ int cstrtot_s(char* string, unsigned int length, TCHAR* output)
 * @param length length of TCHAR string
 * @param output Resulting C string
 *
-* @author Jacob Hammack NGC/TASC
+* @author Jacob Hammack
 */
 int tstrtoc_s(TCHAR* string, unsigned int length, char* output)
 {
