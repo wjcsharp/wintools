@@ -1,0 +1,14 @@
+CC=i386-mingw32-gcc
+CFLAGS=-x c
+LDFLAGS=
+
+STRIP=i386-mingw32-strip
+
+all: keypull.exe
+
+keypull.exe: keypull.c
+	$(CC) -o keypull.exe $(CFLAGS) keypull.c $(LDFLAGS)
+	$(STRIP) keypull.exe
+
+clean:
+	rm *.exe *.o
