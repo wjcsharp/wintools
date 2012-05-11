@@ -52,7 +52,7 @@ int _tmain(int argc, TCHAR *argv[])
             TEXT("SOFTWARE\\Microsoft\\Office\\12.0\\Registration\\{90120000-0021-0000-0000-0000000FF1CE}"), /* Visio 2007 */
             TEXT("SOFTWARE\\Microsoft\\Office\\12.0\\Registration\\{90120000-0045-0000-0000-0000000FF1CE}"), /* Expression Web 2 */
             TEXT("SOFTWARE\\Microsoft\\Office\\12.0\\Registration\\{90120000-0051-0000-0000-0000000FF1CE}"), /* Project 2007 */
-			TEXT("SOFTWARE\\Microsoft\\Office\\11.0\\Registration\\{90110409-6000-11D3-8CFE-0150048383C9}"), /* Not sure */
+						TEXT("SOFTWARE\\Microsoft\\Office\\11.0\\Registration\\{90110409-6000-11D3-8CFE-0150048383C9}"), /* Not sure */
             NULL
         };
         
