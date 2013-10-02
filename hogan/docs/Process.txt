@@ -1,5 +1,4 @@
-
-             
+          
 RECON -> TARGETING -> ATTACK -> ANALYSE -> REPORT
   ^                                |
   └────────────────────────────────┘
@@ -10,9 +9,9 @@ RECON -> TARGETING -> ATTACK -> ANALYSE -> REPORT
                                       / \
                                      /   \
                                     /     \
-                                   /       \
-                                  /         \
-                                 /           \
+                                   /  ____ \
+                                  /   \  /  \
+                                 /     \/    \
                                 /             \
                                /               \
                  Exploitation  ----------------- Host Integrity

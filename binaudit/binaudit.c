@@ -25,7 +25,7 @@ bool is_pe(char *filename)
  *
  * @param FileToBeProcessed File handle that will be used.
  *
- * @author Jacob Hammack Tasc Inc.
+ * @author Jacob Hammack
  *
  * @todo update documentation for this function
  */

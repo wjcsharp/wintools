@@ -46,7 +46,7 @@ int _tmain(int argc, TCHAR *argv[])
  * Attempts elevate to system debug privileges, if this fails or suceeds doesn't really matter
  * it just provides us a little bit more access to the system.
  *
- * @author Jacob Hammack NGC/TASC
+ * @author Jacob Hammack
  */
 void SetPrivilege(DWORD privilege)
 {
